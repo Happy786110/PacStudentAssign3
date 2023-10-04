@@ -5,6 +5,7 @@ public class PacStudentController : MonoBehaviour
 {
     public float moveSpeed = 5f; // Adjust the speed as needed.
     public Transform[] movePositions; // Define the key positions in the clockwise order.
+    public float animationThreshold = 0.1f; // Threshold to trigger animations.
 
     private Animator pacStudentAnimator;
     private int currentMoveIndex = 0;
@@ -27,29 +28,38 @@ public class PacStudentController : MonoBehaviour
 
             // Calculate the direction to the target waypoint.
             Vector3 moveDirection = (targetPosition - transform.position).normalized;
-            float targetRotation = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
 
-            // Trigger the walking animation.
-            pacStudentAnimator.SetBool("IsMoving", true);
+            // Rotate PacStudent to face the target waypoint.
+            //float targetRotation = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+            //transform.rotation = Quaternion.Euler(0f, 0f, targetRotation);
 
-            // Tween PacStudent's position and rotation over time.
+            // Calculate the Horizontal and Vertical values based on direction.
+            float horizontal = Mathf.Abs(moveDirection.x) > animationThreshold ? moveDirection.x : 0f;
+            float vertical = Mathf.Abs(moveDirection.y) > animationThreshold ? moveDirection.y : 0f;
+
+            // Set the animator parameters for walking animation.
+            pacStudentAnimator.SetFloat("Horizontal", horizontal);
+            pacStudentAnimator.SetFloat("Vertical", vertical);
+
+            // Wait for a brief moment to allow rotation.
+            yield return new WaitForSeconds(0.5f);
+
+            // Tween PacStudent's position over time.
             float elapsedTime = 0f;
             Vector3 startPosition = transform.position;
-            Quaternion startRotation = transform.rotation;
             while (elapsedTime < moveTime)
             {
                 transform.position = Vector3.Lerp(startPosition, targetPosition, elapsedTime / moveTime);
-                transform.rotation = Quaternion.Lerp(startRotation, Quaternion.Euler(0f, 0f, targetRotation), elapsedTime / moveTime);
                 elapsedTime += Time.deltaTime;
                 yield return null;
             }
 
-            // Ensure PacStudent reaches the exact position and rotation.
+            // Ensure PacStudent reaches the exact position.
             transform.position = targetPosition;
-            transform.rotation = Quaternion.Euler(0f, 0f, targetRotation);
 
-            // Trigger the idle animation.
-            pacStudentAnimator.SetBool("IsMoving", false);
+            // Reset animator parameters.
+            pacStudentAnimator.SetFloat("Horizontal", 0f);
+            pacStudentAnimator.SetFloat("Vertical", 0f);
 
             // Increment the move index in a circular manner.
             currentMoveIndex = (currentMoveIndex + 1) % movePositions.Length;
