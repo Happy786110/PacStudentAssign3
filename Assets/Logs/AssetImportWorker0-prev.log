@@ -1,0 +1,422 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.6f1 (10bfa6201ced) revision 1097638'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 7778 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/narji/Downloads/PacStudent-main/PacStudent-main/Assets
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51491
+Successfully changed project path to: C:/Users/narji/Downloads/PacStudent-main/PacStudent-main/Assets
+C:/Users/narji/Downloads/PacStudent-main/PacStudent-main/Assets
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [51584] Host "[IP] 192.168.1.144 [Port] 0 [Flags] 2 [Guid] 2439408149 [EditorId] 2439408149 [Version] 1048832 [Id] WindowsEditor(7,narjis-surfacepro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [51584] Host "[IP] 192.168.1.144 [Port] 0 [Flags] 2 [Guid] 2439408149 [EditorId] 2439408149 [Version] 1048832 [Id] WindowsEditor(7,narjis-surfacepro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.6f1 (10bfa6201ced)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/narji/Downloads/PacStudent-main/PacStudent-main/Assets/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a5a)
+    Vendor:   Intel
+    VRAM:     3889 MB
+    Driver:   27.20.100.9621
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021529 seconds.
+- Loaded All Assemblies, in  1.072 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.823 seconds
+Domain Reload Profiling:
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (463ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (448ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+				TypeCache.Initialize (292ms)
+					TypeCache.ScanAssembly (290ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (676ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (22ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (471ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.378 seconds
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.013 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (417ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		LoadAllAssembliesAndSetupDomain (430ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+				TypeCache.Initialize (324ms)
+					TypeCache.ScanAssembly (317ms)
+				ResolveRequiredComponents (11ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (58.5 KB). Loaded Objects now: 842.
+Memory consumption went from 92.2 MB to 92.1 MB.
+Total: 4.424900 ms (FindLiveObjects: 0.090400 ms CreateObjectMapping: 0.016500 ms MarkObjects: 4.198600 ms  DeleteObjects: 0.117400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 656835.345559 seconds.
+  path: Assets/Visual Assets/Prefabs/SmallPellet.asset
+  artifactKey: Guid(b8ade99101f9f9d49b9bff71d671c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Prefabs/SmallPellet.asset using Guid(b8ade99101f9f9d49b9bff71d671c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e59cbbe95f860518ba47335b5484492') in 0.060476 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 37.898480 seconds.
+  path: Assets/Visual Assets/Pellets
+  artifactKey: Guid(f99238f1277d2ca4dbdb59de9c5a80f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Pellets using Guid(f99238f1277d2ca4dbdb59de9c5a80f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dff900b611eda051faa89edae2cb3a6') in 0.000799 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.891373 seconds.
+  path: Assets/Visual Assets/PowerPellet.png
+  artifactKey: Guid(a678fa5fec4ba5749ba22093439c6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/PowerPellet.png using Guid(a678fa5fec4ba5749ba22093439c6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19a72242362bcedc1c8e056e33be8f3') in 0.057369 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.807336 seconds.
+  path: Assets/Visual Assets/Pellets/SmalPellet.png
+  artifactKey: Guid(4453284b13cd4514984aaac3ca749384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Pellets/SmalPellet.png using Guid(4453284b13cd4514984aaac3ca749384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda44eb1cdb76eda90ffe2f791a1a4c9') in 0.016435 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.614460 seconds.
+  path: Assets/Visual Assets/Pellets/SmalPellet.png
+  artifactKey: Guid(4453284b13cd4514984aaac3ca749384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Pellets/SmalPellet.png using Guid(4453284b13cd4514984aaac3ca749384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be1eed871a748e79a57693bfee2e247') in 0.204678 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.115717 seconds.
+  path: Assets/Visual Assets/Pellets/PowerPellet.png
+  artifactKey: Guid(a678fa5fec4ba5749ba22093439c6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Pellets/PowerPellet.png using Guid(a678fa5fec4ba5749ba22093439c6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a0a86163171f64aeaea28142daf55e') in 0.024584 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 26.901982 seconds.
+  path: Assets/Visual Assets/Prefabs/Pellet.prefab
+  artifactKey: Guid(60a65e8858b1b6f48984278ecdd43d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Prefabs/Pellet.prefab using Guid(60a65e8858b1b6f48984278ecdd43d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f34e593b14be0f4ac99c47aaa0fe24f') in 0.017484 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 5.510123 seconds.
+  path: Assets/Visual Assets/Prefabs/Pellet.prefab
+  artifactKey: Guid(60a65e8858b1b6f48984278ecdd43d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Prefabs/Pellet.prefab using Guid(60a65e8858b1b6f48984278ecdd43d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18031d57ce66e7086cd453655b2ab923') in 0.062558 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 7.836665 seconds.
+  path: Assets/Visual Assets/Prefabs/PowerPellet.prefab
+  artifactKey: Guid(fe49a9acd392a0f4caa15d57087c3feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Prefabs/PowerPellet.prefab using Guid(fe49a9acd392a0f4caa15d57087c3feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1048f829e48e68007cf0428d8806995') in 0.005384 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 4.921587 seconds.
+  path: Assets/Visual Assets/Prefabs/PowerPellet.prefab
+  artifactKey: Guid(fe49a9acd392a0f4caa15d57087c3feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Prefabs/PowerPellet.prefab using Guid(fe49a9acd392a0f4caa15d57087c3feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340f47b53e0d6d33652cada60f5865a0') in 0.037369 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 7.787892 seconds.
+  path: Assets/Visual Assets/Prefabs/Pellet.prefab
+  artifactKey: Guid(60a65e8858b1b6f48984278ecdd43d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Prefabs/Pellet.prefab using Guid(60a65e8858b1b6f48984278ecdd43d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8fe86dc06b46ced00f3fbc7af5541c') in 0.020760 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.001225 seconds.
+  path: Assets/Visual Assets/Prefabs/Pellet.prefab
+  artifactKey: Guid(60a65e8858b1b6f48984278ecdd43d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Prefabs/Pellet.prefab using Guid(60a65e8858b1b6f48984278ecdd43d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01faf0a7f2be4e947d1e3dba2580732e') in 0.020901 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.037888 seconds.
+  path: Assets/Visual Assets/Sprites/PTiles/New Palette.prefab
+  artifactKey: Guid(0dd1ab69b6767d341b19cda36bf4aa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PTiles/New Palette.prefab using Guid(0dd1ab69b6767d341b19cda36bf4aa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95311c035a543d039807683405dcd866') in 0.101006 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 15.255144 seconds.
+  path: Assets/Visual Assets/Prefabs/PowerPellet.asset
+  artifactKey: Guid(f67dcd9c807954340956501be8a57e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Prefabs/PowerPellet.asset using Guid(f67dcd9c807954340956501be8a57e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6939355f678e07517fdef63949f6b0') in 0.002438 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.714256 seconds.
+  path: Assets/Visual Assets/Prefabs/SmallPellet.asset
+  artifactKey: Guid(b8ade99101f9f9d49b9bff71d671c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Prefabs/SmallPellet.asset using Guid(b8ade99101f9f9d49b9bff71d671c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7c0d21f66135ec6057f3fecab4f54a') in 0.003682 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 31.346264 seconds.
+  path: Assets/Visual Assets/Prefabs/PowerPellet.asset
+  artifactKey: Guid(f67dcd9c807954340956501be8a57e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Prefabs/PowerPellet.asset using Guid(f67dcd9c807954340956501be8a57e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ffb83e18134d8aec65c1a825f4e63e') in 0.006422 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 11.666186 seconds.
+  path: Assets/Visual Assets/Sprites/PTiles/New Palette.prefab
+  artifactKey: Guid(0dd1ab69b6767d341b19cda36bf4aa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PTiles/New Palette.prefab using Guid(0dd1ab69b6767d341b19cda36bf4aa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2330d81d80fff7c6245653525476ba0') in 0.156199 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 235.754434 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent
+  artifactKey: Guid(1d2f841063e58a54d9ffbbae4ed4a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent using Guid(1d2f841063e58a54d9ffbbae4ed4a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e3cd0bbf79357270286d4c8a62b8c1') in 0.001079 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.417186 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent/PacStudent_Up.gif
+  artifactKey: Guid(4e1714f4f18dfaf41bfa4d447595a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent/PacStudent_Up.gif using Guid(4e1714f4f18dfaf41bfa4d447595a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26abfcee2837abc2eb38c73d21239945') in 0.025768 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.178695 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent/PacStudent_Left.gif
+  artifactKey: Guid(91acc35c8a7c5f94b8a2cb7a2f9f5c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent/PacStudent_Left.gif using Guid(91acc35c8a7c5f94b8a2cb7a2f9f5c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f79244d99cf46230f4b11680fb62355') in 0.024984 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.936417 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent/PacStudent_Left.gif
+  artifactKey: Guid(91acc35c8a7c5f94b8a2cb7a2f9f5c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent/PacStudent_Left.gif using Guid(91acc35c8a7c5f94b8a2cb7a2f9f5c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b950eecaacce72de87f33fb78f25dbc4') in 0.020869 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.638155 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent/PacStudent_Death.gif
+  artifactKey: Guid(5fe91479278afb44b9ac8eee35b7372a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent/PacStudent_Death.gif using Guid(5fe91479278afb44b9ac8eee35b7372a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c41b879a9e4a24f7d419fa57a618f2') in 0.026482 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.366230 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent/PacStudent_Up.gif
+  artifactKey: Guid(4e1714f4f18dfaf41bfa4d447595a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent/PacStudent_Up.gif using Guid(4e1714f4f18dfaf41bfa4d447595a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1278804104486ade9233006bc3c5e7') in 0.024958 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 56.398071 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent/PacStudentAnimator.controller
+  artifactKey: Guid(7fd49dfcf7500a740937d37170c55d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent/PacStudentAnimator.controller using Guid(7fd49dfcf7500a740937d37170c55d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90289bde52cb698b0c5f109be81c9883') in 0.005275 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1170.167404 seconds.
+  path: Assets/Visual Assets/Sprites/Ghosts
+  artifactKey: Guid(12284b9a716c895429d7f4c17a42dd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/Ghosts using Guid(12284b9a716c895429d7f4c17a42dd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7525986d28d47eb200dd8ffd480038') in 0.002515 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 456.785605 seconds.
+  path: Assets/Visual Assets/Sprites/Ghosts/Ghost_DS.gif
+  artifactKey: Guid(420fd2a12f6ff4f42be9bfea706c8177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/Ghosts/Ghost_DS.gif using Guid(420fd2a12f6ff4f42be9bfea706c8177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219564ac9b5a70b40ba821fa71148c32') in 0.114182 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.021843 seconds.
+  path: Assets/Visual Assets/Sprites/Ghosts/Ghost_DS.gif
+  artifactKey: Guid(420fd2a12f6ff4f42be9bfea706c8177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/Ghosts/Ghost_DS.gif using Guid(420fd2a12f6ff4f42be9bfea706c8177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b89fad21f3c0b8dbd633734da0fdbcf') in 0.036775 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 33.162845 seconds.
+  path: Assets/Visual Assets/Sprites/Ghosts/GhostAnimator.controller
+  artifactKey: Guid(7d24cb81c9c598648a94741fe7a8ad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/Ghosts/GhostAnimator.controller using Guid(7d24cb81c9c598648a94741fe7a8ad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4cf793eab02d9c498714453f48f09d') in 0.003495 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 37.417237 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent/PacStudentAnimator.controller
+  artifactKey: Guid(7fd49dfcf7500a740937d37170c55d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent/PacStudentAnimator.controller using Guid(7fd49dfcf7500a740937d37170c55d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9ad5dc3631eed8b28baf58d22f394d') in 0.007508 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 888.892506 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent/PacStudentAnimator.controller
+  artifactKey: Guid(7fd49dfcf7500a740937d37170c55d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent/PacStudentAnimator.controller using Guid(7fd49dfcf7500a740937d37170c55d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fc6d65334d025ac19dd735a7b72c00') in 0.006587 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 326.525659 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent/PacStudentAnimator.controller
+  artifactKey: Guid(7fd49dfcf7500a740937d37170c55d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent/PacStudentAnimator.controller using Guid(7fd49dfcf7500a740937d37170c55d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf79fa23ed59ab78954beb184b08a85') in 0.004951 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 3.683667 seconds.
+  path: Assets/Visual Assets/Sprites/PacStudent/PacStudentAnimator.controller
+  artifactKey: Guid(7fd49dfcf7500a740937d37170c55d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Sprites/PacStudent/PacStudentAnimator.controller using Guid(7fd49dfcf7500a740937d37170c55d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3189b15e7c686a0e04bd18829cce72') in 0.002256 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
