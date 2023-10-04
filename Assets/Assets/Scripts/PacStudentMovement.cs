@@ -10,6 +10,8 @@ public class PacStudentController : MonoBehaviour
     private Animator pacStudentAnimator;
     private int currentMoveIndex = 0;
 
+    private bool isDead = false;
+
     void Start()
     {
         pacStudentAnimator = GetComponent<Animator>();
@@ -29,9 +31,7 @@ public class PacStudentController : MonoBehaviour
             // Calculate the direction to the target waypoint.
             Vector3 moveDirection = (targetPosition - transform.position).normalized;
 
-            // Rotate PacStudent to face the target waypoint.
-            //float targetRotation = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
-            //transform.rotation = Quaternion.Euler(0f, 0f, targetRotation);
+
 
             // Calculate the Horizontal and Vertical values based on direction.
             float horizontal = Mathf.Abs(moveDirection.x) > animationThreshold ? moveDirection.x : 0f;
